@@ -2,8 +2,9 @@
 FROM gitpod/workspace-full:latest
 
 # Install custom tools, runtime, etc.
-USER gitpod
 ARG DEBIAN_FRONTEND=noninteractive
+USER gitpod
+
 
 RUN sudo apt-get update
 RUN sudo apt-get install -y build-essential geany geany-plugins synaptic \

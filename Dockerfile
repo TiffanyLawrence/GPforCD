@@ -1,5 +1,5 @@
 #Getting base image
-gitpod/workspace-full:latest
+FROM gitpod/workspace-full:latest
 
 # Install custom tools, runtime, etc.
 USER gitpod
